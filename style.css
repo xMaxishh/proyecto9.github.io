@@ -324,26 +324,31 @@ body.theme1 {
             width: initial;
             height: initial;
             margin: 0 auto;
+            height: 100%;
         }
-        .labels label span{
+
+        .labels label span {
             font-size: 14px;
             top: -15px;
-            right:-3px;
+            right: -3px;
         }
+
         .theme-selector {
             width: 90dvw;
 
         }
-        span.calc{
+
+        span.calc {
             line-height: 0;
             font-weight: 700;
             font-size: 25px;
         }
-        span.theme{
+
+        span.theme {
             font-size: 16px;
         }
-                
-    }   
+
+    }
 }
 
 body.theme2 {
@@ -595,6 +600,7 @@ body.theme2 {
             width: initial;
             height: initial;
             margin: 0 auto;
+            height: 100%;
         }
 
         .labels label span {
@@ -862,6 +868,7 @@ body.theme3 {
 
     @media (max-width: 575px) {
         .container {
+            height: 100%;
             display: block;
             background-color: transparent;
             justify-content: center;
