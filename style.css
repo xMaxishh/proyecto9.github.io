@@ -897,6 +897,9 @@ body.theme3 {
         span.theme {
             font-size: 16px;
         }
+        .container-buttons{
+        height: 100%;
+        }
 
     }
 }
