@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <article class="calculator">
+
+      <div class="theme-selector">
+
+        <span class="calc">calc</span>
+        <span class="theme">THEME</span>
+        <div class="labels">
+          <input type="radio" id="theme1" name="theme" value="1" checked>
+          <input type="radio" id="theme2" name="theme" value="2">
+          <input type="radio" id="theme3" name="theme" value="3">
+          <div class="slider"></div>
+          <label for="theme1"><span>1</span></label>
+          <label for="theme2"><span>2</span></label>
+          <label for="theme3"><span>3</span></label>
+        </div>
+      </div>
+
+
+
+
+      </div>
+      <div class="container-result">
+        <div class="operation">0.0</div>
+
+      </div>
+      <div class="container-buttons">
+        <div class="buttons num1">1</div>
+        <div class="buttons num2">2</div>
+        <div class="buttons num3">3</div>
+        <div class="delete">DEL</div>
+        <div class="buttons num4">4</div>
+        <div class="buttons num5">5</div>
+        <div class="buttons num6">6</div>
+        <div id="operators" class="buttons suma">+</div>
+        <div class="buttons num7">7</div>
+        <div class="buttons num8">8</div>
+        <div class="buttons num9">9</div>
+        <div id="operators" class="buttons resta">-</div>
+        <div class="buttons punto">.</div>
+        <div class="buttons num0">0</div>
+        <div id="operators" class="buttons divido">/</div>
+        <div id="operators" class="buttons mult">×</div>
+
+        <button class="submit reset">RESET</button>
+        <button class="submit igual">=</button>
+      </div>
+
+
+    </article>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
