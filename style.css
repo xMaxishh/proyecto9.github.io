@@ -318,12 +318,16 @@ body.theme1 {
 
     @media (max-width: 575px) {
         .container {
+            height: 100%;
             display: block;
             background-color: transparent;
             justify-content: center;
             width: initial;
             height: initial;
             margin: 0 auto;
+        }
+
+        .calculator {
             height: 100%;
         }
 
@@ -348,6 +352,9 @@ body.theme1 {
             font-size: 16px;
         }
 
+        .container-buttons {
+            height: 100%;
+        }
     }
 }
 
@@ -594,12 +601,16 @@ body.theme2 {
 
     @media (max-width: 575px) {
         .container {
+            height: 100%;
             display: block;
             background-color: transparent;
             justify-content: center;
             width: initial;
             height: initial;
             margin: 0 auto;
+        }
+
+        .calculator {
             height: 100%;
         }
 
@@ -624,6 +635,9 @@ body.theme2 {
             font-size: 16px;
         }
 
+        .container-buttons {
+            height: 100%;
+        }
     }
 }
 
@@ -877,6 +891,10 @@ body.theme3 {
             margin: 0 auto;
         }
 
+        .calculator {
+            height: 100%;
+        }
+
         .labels label span {
             font-size: 14px;
             top: -15px;
@@ -897,8 +915,9 @@ body.theme3 {
         span.theme {
             font-size: 16px;
         }
-        .container-buttons{
-        height: 100%;
+
+        .container-buttons {
+            height: 100%;
         }
 
     }
